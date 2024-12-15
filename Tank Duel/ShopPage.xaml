@@ -1,0 +1,34 @@
+﻿<Page x:Class="Tank_Duel.ShopPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Tank Game" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="112*"/>
+            <RowDefinition Height="323*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="start" Content="Начать игру" HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top" Click="Button_Click" Height="30" Width="120" Grid.Row="1" IsEnabled="False"/>
+        <Button x:Name="lightAmmoButton" Content="Лёгкие снаряды" HorizontalAlignment="Left" Margin="67,92,0,0" VerticalAlignment="Top" Height="60" Width="170" Click="lightAmmoButton_Click" Grid.RowSpan="2"/>
+        <Button x:Name="normalAmmoButton" Content="Нормальные снаряды" HorizontalAlignment="Left" Margin="67,63,0,0" VerticalAlignment="Top" Height="60" Width="170" Click="normalAmmoButton_Click" Grid.Row="1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.064"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="heavyAmmoButton" Content="Тяжелые снаряды" HorizontalAlignment="Left" Margin="67,144,0,0" VerticalAlignment="Top" Click="heavyAmmoButton_Click" Height="60" Width="170" Grid.Row="1"/>
+        <Label x:Name="label" Content="Первый игрок" HorizontalAlignment="Left" Margin="67,10,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold" Foreground="Red"/>
+        <Label x:Name="titleLabel" Content="Танковая дуэль" HorizontalAlignment="Center" Margin="0,8,0,0" VerticalAlignment="Top" Height="40" Width="200" FontSize="24" FontWeight="Bold" Grid.Row="0" Foreground="Purple"/>
+        <Button x:Name="gasButton" Content="Топливо" HorizontalAlignment="Left" Margin="245,69,0,0" VerticalAlignment="Top" Height="43" Width="100" Click="Gas1" Grid.Row="1"/>
+        <Label x:Name="labelMoney" Content="Деньги:" HorizontalAlignment="Left" Margin="67,35,0,0" VerticalAlignment="Top" FontSize="16" Foreground="Red"/>
+        <Label x:Name="labelGas" Content="Топливо:" HorizontalAlignment="Left" Margin="245,35,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="1" Foreground="Red"/>
+        <Button x:Name="armorButton" Content="Armor1" HorizontalAlignment="Left" Margin="67,0,0,63" Grid.Row="1" VerticalAlignment="Bottom" Click="armorButton_Click" Height="40" Width="80" IsDefault="True"/>
+        <Label x:Name="armorCount" Content="Armor1: 0" HorizontalAlignment="Left" Margin="153,0,0,63" Grid.Row="1" VerticalAlignment="Bottom" FontSize="16"/>
+    </Grid>
+</Page>

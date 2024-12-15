@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TankLibrary._2DObjectsGraph.BackgroundGame">
+    <Position X="21.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2DObjectsGraph\BackgroundGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankLibrary._2DObjectsGraph.BulletGame">
+    <Position X="23.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAACBAAAAAAAAAAAAQAQA=</HashCode>
+      <FileName>2DObjectsGraph\BulletGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankLibrary._2DObjectsGraph.ObstacleGame">
+    <Position X="21.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>2DObjectsGraph\ObstacleGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankLibrary._2DObjectsGraph.TankGame">
+    <Position X="20" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAIAABAAQBAAICIAAACBAAAAAAAAAAQAQAAA=</HashCode>
+      <FileName>2DObjectsGraph\TankGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TankLibrary._2DObjectsGraph.VisualizationObject">
+    <Position X="18" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAIAAAAAACBAAAAQAAUAAAAAACA=</HashCode>
+      <FileName>2DObjectsGraph\VisualizationObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
